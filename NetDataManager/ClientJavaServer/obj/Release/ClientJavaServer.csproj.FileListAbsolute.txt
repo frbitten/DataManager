@@ -1,0 +1,11 @@
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\ClientJavaServer.dll
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\ClientJavaServer.pdb
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\JooDatabase.dll
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\MySql.Data.dll
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\JooUtils.dll
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\JooDatabase.pdb
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\JooUtils.pdb
+D:\Joo\Projetos\Framework\ClientJavaServer\bin\Release\JooUtils.xml
+D:\Joo\Projetos\Framework\ClientJavaServer\obj\Release\ClientJavaServer.csprojResolveAssemblyReference.cache
+D:\Joo\Projetos\Framework\ClientJavaServer\obj\Release\ClientJavaServer.dll
+D:\Joo\Projetos\Framework\ClientJavaServer\obj\Release\ClientJavaServer.pdb

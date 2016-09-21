@@ -1,0 +1,4 @@
+- opção de Lock de tabela no JooDatabase
+- opção para trabalhar com Procedure incluir,excluir e executar um procedure no banco para Mysql e Sql server
+- JooDatabase implementar opção de count para saber quantidades de registros de um sql
+- JooDatabase implementar opção de campo de soma. carregar o valor da soma mas nao ter que carregar a listagem de filhos

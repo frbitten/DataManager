@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JooUtils</name>
+    </assembly>
+    <members>
+        <member name="T:Joo.Utils.Helpers.Visual.VisualControls">
+            <summary>
+            Extensions of visual trees
+            </summary>
+        </member>
+        <member name="M:Joo.Utils.Helpers.Visual.VisualControls.FindVisualChildren``1(System.Windows.DependencyObject)">
+            <summary>
+            Find visual children in tree inside the element, method uses VisualTreeHelper.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="depObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.Visual.VisualControls.FindVisualChild``1(System.Windows.DependencyObject)">
+            <summary>
+            FirstOrDefault visual child in tree inside the element, method uses VisualTreeHelper.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="depObj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.Visual.VisualControls.FindParent``1(System.Windows.DependencyObject,System.Type)">
+            <summary>
+            Find visual parent in tree above the element, method uses VisualTreeHelper.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="item"></param>
+            <param name="StopAt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.StringHelper.CreateTextNotRepeated(System.String,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="newText"></param>
+            <param name="texts"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.Visual.ManipulatingImage.ConvertBitmapTo96DPI(System.Windows.Media.Imaging.BitmapImage,System.Windows.Media.Imaging.BitmapEncoder)">
+            <summary>
+            Change DPI image To 96
+            </summary>
+            <param name="bitmapImage"></param>
+            <param name="encoder">Default enconder is JPEG</param>
+            <returns></returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.Visual.ManipulatingImage.BitmapImage2Bitmap(System.Windows.Media.Imaging.BitmapImage,System.Windows.Media.Imaging.BitmapEncoder)">
+            <summary>
+            Convert System.Media.Image.Imaging.BitmapImage (WPF) to System.Drawing.Bitmap (WinForms and Others)
+            </summary>
+            <param name="bitmapImage"></param>
+            <param name="encoder">Default enconder is JPEG</param>
+            <returns></returns>        
+        </member>
+        <member name="T:Joo.Utils.Helpers.ExtensionTree">
+            <summary>
+            Extensions of trees
+            </summary>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionTree.AsDepthFirstEnumerable``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>
+            In depth-first traversal, the algorithm will dig continue to dig down a nodes children until it reaches a leaf node (a node without children), before considering the next child of the current parent node.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="head"></param>
+            <param name="childrenFunc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionTree.AsBreadthFirstEnumerable``1(``0,System.Func{``0,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>
+            In breadth-first traversal, the algorithm will return all nodes at a particular depth first before considering the children at the next level. I.e. First return all the nodes from level 1, then all nodes from level 2, etc.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="head"></param>
+            <param name="childrenFunc"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Joo.Utils.Converters.ValueConverterGroup">
+            <summary>
+            A value converter which contains a list of IValueConverters and invokes their Convert or ConvertBack methods
+            in the order that they exist in the list.  The output of one converter is piped into the next converter
+            allowing for modular value converters to be chained together.  If the ConvertBack method is invoked, the
+            value converters are executed in reverse order (highest to lowest index).  Do not leave an element in the
+            Converters property collection null, every element must reference a valid IValueConverter instance. If a
+            value converter's type is not decorated with the ValueConversionAttribute, an InvalidOperationException will be
+            thrown when the converter is added to the Converters collection.
+            </summary>
+        </member>
+        <member name="M:Joo.Utils.Converters.ValueConverterGroup.GetTargetType(System.Object,System.Int32,System.Type,System.Boolean)">
+            <summary>
+            Returns the target type for a conversion operation.
+            </summary>
+            <param name="converterIndex">The index of the current converter about to be executed.</param>
+            <param name="finalTargetType">The 'targetType' argument passed into the conversion method.</param>
+            <param name="convert">Pass true if calling from the Convert method, or false if calling from ConvertBack.</param>
+        </member>
+        <member name="P:Joo.Utils.Converters.ValueConverterGroup.Converters">
+            <summary>
+            Returns the list of IValueConverters contained in this converter.
+            </summary>
+        </member>
+        <member name="T:Joo.Utils.Helpers.ExtensionCollection">
+            <summary>
+            Extensions of collections
+            </summary>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionCollection.Each``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
+            <summary>
+            Executes the given action against the given ICollection instance.
+            </summary>
+            <typeparam name="T">The type of the ICollection parameter.</typeparam>
+            <param name="items">The collection the action is performed against.</param>
+            <param name="action">The action that is performed on each item.</param>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionCollection.In``1(``0,``0[])">
+            <summary>
+            Determines whether a parameter is in a given list of parameters.
+            E.g.. 11.In(1,2,3) will return false.
+            </summary>
+            <typeparam name="T">The type of the source parameter.</typeparam>
+            <param name="source">The item that needs to be checked.</param>
+            <param name="list">The list that will be checked for the given source.</param>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionCollection.HasElements(System.Collections.ICollection)">
+            <summary>
+            Determines whether the specified collection has any elements in the sequence.
+            This method also checks for a null collection.
+            </summary>
+            <param name="items">The ICollection of items to check.</param>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionCollection.SubArray``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            Retorna uma parte do array passado de acordo com os index e tamanho
+            </summary>
+            <typeparam name="T"> tipo do array</typeparam>
+            <param name="data"> array principal</param>
+            <param name="index"> indice inicial para a copia</param>
+            <param name="length">quantidade dos dados copiados</param>
+            <returns></returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionCollection.Except``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})">
+            <summary>
+            Returns all items in the first collection except the ones in the second collection that match the lambda condition (same types)
+            </summary>
+            <typeparam name="T">The type</typeparam>
+            <param name="listA">The first list</param>
+            <param name="listB">The second list</param>
+            <param name="lambda">The filter expression</param>
+            <returns>The filtered list</returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionCollection.Intersect``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Boolean})">
+            <summary>
+            Returns all items in the first collection that intersect the ones in the second collection that match the lambda condition (same types)
+            </summary>
+            <typeparam name="T">The type</typeparam>
+            <param name="listA">The first list</param>
+            <param name="listB">The second list</param>
+            <param name="lambda">The filter expression</param>
+            <returns>The filtered list</returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionCollection.MultiCompare``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,System.Boolean})">
+            <summary>
+            Returns all items in the first collection that match the lambda condition (suport different types)
+            </summary>
+            <typeparam name="T1">The type</typeparam>
+            <typeparam name="T2">The second type</typeparam>
+            <param name="listA">The first list</param>
+            <param name="listB">The second list</param>
+            <param name="comparer">The filter expression</param>
+            <returns>The filtered list</returns>
+        </member>
+        <member name="T:Joo.Utils.Helpers.ExtensionOthers">
+            <summary>
+            Extensions of basic types
+            </summary>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionOthers.IsBetween``1(``0,``0,``0)">
+            <summary>
+            Determines whether a value is between a minimum and maximum value.
+            </summary>
+            <typeparam name="T">The type of the value parameter.</typeparam>
+            <param name="value">The value that needs to be checked.</param>
+            <param name="low">The inclusive lower boundary.</param>
+            <param name="high">The inclusive upper boundary.</param>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionOthers.Truncate(System.String,System.Int32)">
+            <summary>
+            Reduces a string size to the desired value
+            </summary>
+            <param name="value"> String in question </param>
+            <param name="maxChars"> Number of characters  </param>
+            <returns>String Result</returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionOthers.TruncateWithDots(System.String,System.Int32)">
+            <summary>
+            Reduces a string size to the (desired value -2) and adds ".." (dots) at the end.
+            </summary>
+            <example>
+            string teste = "teste123";
+            string result = teste.TruncateWithDots(5);
+            result is "tes.."
+            </example>
+            <param name="value"> String in question </param>
+            <param name="maxChars"> Number of characters  </param>
+            <returns>String Result</returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.ExtensionOthers.RemoveAccents(System.String)">
+            <summary>
+            Change the characters with accents to normal characters
+            </summary>
+            <param name="stIn">String in question</param>
+            <returns>String Normalized</returns>
+        </member>
+        <member name="M:Joo.Utils.Helpers.IpHelper.GetRealIP(System.String)">
+            <summary> Utilizado para filtrar os zeros a esquerda de um ip (com eles a comunicação com a impressora da erro); </summary>
+            <param name="ip"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
