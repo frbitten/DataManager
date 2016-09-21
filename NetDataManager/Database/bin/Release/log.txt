@@ -1,6 +1,0 @@
-Attempting to build package from 'JooDatabase.csproj'.
-Packing files from 'D:\Joo\Projetos\Framework\JooDatabase\bin\Release'.
-Successfully created package 'D:\Joo\Projetos\Framework\JooDatabase\bin\Release\JooDatabase.1.2.28.2309.nupkg'.
-Attempting to build package from 'JooDatabase.csproj'.
-Packing files from 'D:\Joo\Projetos\Framework\JooDatabase\bin\Release'.
-Successfully created package 'D:\Joo\Projetos\Framework\JooDatabase\bin\Release\JooDatabase.1.2.28.2309.nupkg'.

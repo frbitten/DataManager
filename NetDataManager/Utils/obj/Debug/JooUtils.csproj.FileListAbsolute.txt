@@ -1,8 +1,0 @@
-D:\Joo\Projetos\Framework\JooUtils\bin\Debug\JooUtils.dll
-D:\Joo\Projetos\Framework\JooUtils\bin\Debug\JooUtils.pdb
-D:\Joo\Projetos\Framework\JooUtils\obj\Debug\JooUtils.dll
-D:\Joo\Projetos\Framework\JooUtils\obj\Debug\JooUtils.pdb
-F:\Joo\Projetos\Framework\JooUtils\bin\Debug\JooUtils.dll
-F:\Joo\Projetos\Framework\JooUtils\bin\Debug\JooUtils.pdb
-F:\Joo\Projetos\Framework\JooUtils\obj\Debug\JooUtils.dll
-F:\Joo\Projetos\Framework\JooUtils\obj\Debug\JooUtils.pdb

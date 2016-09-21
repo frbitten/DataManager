@@ -1,8 +1,0 @@
-D:\GitHub\DataManager\NetDataManager\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
-D:\GitHub\DataManager\NetDataManager\Database\bin\Debug\Database.dll.config
-D:\GitHub\DataManager\NetDataManager\Database\bin\Debug\Database.dll
-D:\GitHub\DataManager\NetDataManager\Database\bin\Debug\Database.pdb
-D:\GitHub\DataManager\NetDataManager\Database\bin\Debug\Utils.dll
-D:\GitHub\DataManager\NetDataManager\Database\bin\Debug\Utils.pdb
-D:\GitHub\DataManager\NetDataManager\Database\obj\Debug\Database.dll
-D:\GitHub\DataManager\NetDataManager\Database\obj\Debug\Database.pdb

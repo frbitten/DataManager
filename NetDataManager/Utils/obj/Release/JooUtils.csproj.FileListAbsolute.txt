@@ -1,9 +1,0 @@
-D:\Joo\Projetos\Framework\JooUtils\bin\Release\JooUtils.dll
-D:\Joo\Projetos\Framework\JooUtils\bin\Release\JooUtils.pdb
-D:\Joo\Projetos\Framework\JooUtils\obj\Release\JooUtils.dll
-D:\Joo\Projetos\Framework\JooUtils\obj\Release\JooUtils.pdb
-F:\Joo\Projetos\Framework\JooUtils\bin\Release\JooUtils.dll
-F:\Joo\Projetos\Framework\JooUtils\bin\Release\JooUtils.pdb
-F:\Joo\Projetos\Framework\JooUtils\obj\Release\JooUtils.dll
-F:\Joo\Projetos\Framework\JooUtils\obj\Release\JooUtils.pdb
-F:\Joo\Projetos\Framework\JooUtils\bin\Release\JooUtils.XML
