@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-using Joo.Database;
+using Database;
 
-namespace Joo.Server
+namespace Server
 {
     public class MsgHelper
     {

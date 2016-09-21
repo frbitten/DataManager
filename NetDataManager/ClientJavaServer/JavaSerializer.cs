@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Joo.Database;
+using Database;
 using System.Xml;
-using Joo.Database.Types;
+using Database.Types;
 using System.Reflection;
 using System.Globalization;
 using System.IO;
 using System.IO.Compression;
 
-namespace Joo.Server
+namespace Server
 {
     public static class JavaSerializer
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace Joo.Server
+namespace Server
 {
     public class ClientJavaServer
     {

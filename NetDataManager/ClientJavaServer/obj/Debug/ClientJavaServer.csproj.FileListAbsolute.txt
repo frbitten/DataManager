@@ -18,3 +18,13 @@ F:\Joo\Projetos\Framework\ClientJavaServer\bin\Debug\JooUtils.pdb
 F:\Joo\Projetos\Framework\ClientJavaServer\obj\Debug\ClientJavaServer.csprojResolveAssemblyReference.cache
 F:\Joo\Projetos\Framework\ClientJavaServer\obj\Debug\ClientJavaServer.dll
 F:\Joo\Projetos\Framework\ClientJavaServer\obj\Debug\ClientJavaServer.pdb
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\obj\Debug\ClientJavaServer.csprojResolveAssemblyReference.cache
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\obj\Debug\ClientJavaServer.dll
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\obj\Debug\ClientJavaServer.pdb
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\bin\Debug\ClientJavaServer.dll
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\bin\Debug\ClientJavaServer.pdb
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\bin\Debug\Database.dll
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\bin\Debug\System.Data.SQLite.dll
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\bin\Debug\Utils.dll
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\bin\Debug\Database.pdb
+D:\GitHub\DataManager\NetDataManager\ClientJavaServer\bin\Debug\Utils.pdb

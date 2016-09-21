@@ -1,0 +1,4 @@
+D:\GitHub\DataManager\NetDataManager\Utils\bin\Debug\Utils.dll
+D:\GitHub\DataManager\NetDataManager\Utils\bin\Debug\Utils.pdb
+D:\GitHub\DataManager\NetDataManager\Utils\obj\Debug\Utils.dll
+D:\GitHub\DataManager\NetDataManager\Utils\obj\Debug\Utils.pdb
